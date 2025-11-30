@@ -43,6 +43,93 @@ Uses a multi-kernel CNN to learn both local and global sequence features.
 Incorporates an attention mechanism to weigh the importance of different amino acids.
 Availability: Documentation on the model is available via academic
 
+VII. Review Article
+
+Issues mentioned in overview:
+
+-Shorter half life; (Kordi et al., 2023)
+-susceptible to protease degradation; (Nhàn et al., 2023)
+-low oral bioavailability 
+-Undesired side effects; haemolytic activity
+-Prostate and breast cancers have a higher content of cholesterol within their membrane, which poses an obstacle for ACPs to lyse their membrane
+-Even though both antimicrobial peptides (Abdille et al., 2022) and specific-target antibodies have been shown to accumulate in liver tissue with possible toxic effects (Hoppenz et al., 2020), ACPs don't accumulate in organs such as the Kidney and Liver and therefore have a minimal toxicity (Gómez Hernández et al., 2024).
+-Currently, most models are entirely based on peptide sequence information (Zhao et al., 2021), as sequence composition currently provides the best performance across most classifiers (Abbas et al., 2025). This causes some limitations as there is an inability to discriminate peptides having a similar composition but different bioactivity (?Agrawal et al., 2020). The AI model, MA-PEP is trying to overcome this by using a multi-head self-attention mechanism to combine learned sequence embedding and chemical representation to get a comprehensive representation of the peptide (Liang et al., 2024) 
+
+FDA approved peptides:
+Buserelin, Goserelin, Histrelin, Leuprolide, Triporelin, Cetrorelix (Hamdi et al., 2025), Cosmegen, Zoladex, Octreoscan, and Kyprolis (Pan et al., 2020).
+
+FDA disapproved peptides:
+MAGE-A3 is a tumour-associated antigen peptide vaccine that was discontinued due to a lack of efficacy in Phase III against Non-small cell lung cancer (FDA, 2017). BMAP-28 is another anticancer peptide that failed clinical trials due to haemolytic activity against healthy neutrophils and erythrocytes (Hoskin and Ramamoorthy, 2008). Pluvicto is a peptide-drug conjugate that was discontinued after clinical trails as it had a higher incidence of severe adverse effects with normal treatment options with regards to prostate cancer (Lamb et al., 2024).
+
+Details:
+-Most effective ACPs are cationic and hydrophobic
+-interacting with cancer though electrostatic interactions
+-ACPs are predominantly composed of Glycine, Lysine, Leucine
+-Alanine phenylalanine and tryptophan
+-N-terminal of ACPs contains Leucine, Lysine, Alanine, and Phenylalanine while the C-terminal contains Valine, Cystine, Leucine, and Lysine 
+-Having Glycine and Proline present within the peptide sequence is crucial for membrane interactions and conformational flexibility
+-Cancer cells have a negatively charged outer monolayer membrane (Kordi et al., 2023), leading to cancer cell membranes being anionic
+-There is a reduced amount of cholesterol levels within cancer cell membranes that increases the fluidity of these cells in cancer cells
+-Another characteristic is that cancer cells have microvilli on their surface, this increases ACP interaction as this expands the surface area available for ACPs to interact with cancer cells
+-The Zwitterionic nature of healthy cells is why ACPs are not able to interact with normal cells as they cannot form secondary structures in this charge,
+
+-The Secondary structures: The four most common structures formed are alpha helixes, beta-pleated sheets, random coils, and cyclic structures (Xie et al., 2020). Alpha helixes are the most common type of ACPs, they are shorter in length and simpler in structure
+-Helicity has been shown to strongly correlate with anticancer activity (Tripathi and Vishwanatha, 2022). Peptides BR2, Gaegurin, NRC-3, and NRC-7 all form alpha-helical structures.
+-Beta-pleated sheets are formed when there are two or more disulfide bonds present. These structures have a lower anti-tumor activity compared to alpha helixes however are less toxic to normal tissues
+
+Mechanisms of Actions:
+-membrane disruption, apoptosis induction, angiogenesis inhibition, differentiation induction, and immunomodulation
+-main impacts: apoptosis and necrosis
+
+PNC-27; binds to HDM-2 proteins
+Lfcin-B penetrates cancer cell membrane and permeabilizes the negatively charged mitochondrial membrane → trigger apoptosis.
+Buforin llb transverses the cell membrane without causing any damage and accumulates in the nuclei which leads to mitochondrial dependent apoptosis.
+
+Other methods of triggering apoptosis are modulating regulatory proteins like BAX or Bcl-2 expression.
+
+Dolastatin 10; Works through upregulating Bax, a pro apoptotic protein and downregulates Bcl-2 and anti-apoptotic protein.
+
+LL-37; activates a P53 mediated apoptotic cascade that suppresses cancer.
+P53-mediated apoptotic pathway works through upregulating Bax and Bak and downregulating Bcl-2.
+
+*Angiogenesis inhibition: Preventing the rapid growth and increase in size of cancer cells.
+
+Vascular Endothelial Growth Factor(VEGF)
+Fibroblast Growth Factor(FGF)
+Platelet-Derived Growth Factor(PDGF)
+Epidermal Growth Factor (EGF)
+Tumor Necrosis Factor-alpha(TNFalpha)
+CXC chemokine-mediated angiogenesis→ leads to malignant tumors
+CXCR2 is a major angiogenic receptor
+CXCL1 promotes angiogenesis and secretes pro-angiogenic factors like VEGF
+Melittin downregulates the expression of VEGF
+MP06 decreases VEGF expression
+Note: inhibition of angiogenesis does not directly kill cancer cells but inhibits neo-vascularization. Reducing blood flow to cancer, hindering its growth.
+
+*Immune Modulation: Modulating the immune response against cancer.
+
+Cytokine Production
+Dendritic Cell Maturation Induction
+Upregulation of CD8^+ T
+Downregulation of regulatory T cells.
+Down regulation of T_regs 
+NK(Natural Killer) cells
+LfcinB can enhance the immune system by inducing the production of cytokines
+MENK can upregulate CD8+T cell activity, inducing dendritic cell maturation, Inhibiting T_regs activity
+Alloferin increases killing activity of NK cells via upregulation of NK activating receptors such as 2B4 causing an increase in production of interferon gamma, TNF alpha, and granule exocytosis from NK cells.
+
+*Differentiation of Cancer Cells:
+
+-Differentiated cancer cells are less aggressive and less resistant
+Reverses the malignant phenotype of cancers
+Tachyplesin 1 induces cancer cell differentiation by decreasing expression of tumor-associated antigens. Also modulates the expression of differentiation associated enzymes, decreases the expression of the c-myc oncogene. Increases expression of tumor suppression gene p21WAF1
+
+
+ACPs have the advantage of being modified. Ie; through main chain or side chain modifications. 
+
+ACPs often function through either lysis of the membrane or triggering apoptosis:
+
+Apoptosis: apoptosis induction, angiogenesis inhibition, immune modulation (Xie et al., 2020), and induction of differentiation
 
 
 
