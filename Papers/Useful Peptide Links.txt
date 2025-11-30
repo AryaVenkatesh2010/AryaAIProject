@@ -4,11 +4,17 @@ https://balalab-skku.org/peptidebased/
 
 Peptidy web site
 https://github.com/molML/peptidy
-
 https://github.com/molML/peptidy/tree/main/examples
+
+ML-PDGA
+https://github.com/reymond-group/ML-PDGA-anticancer-peptides
+
+ACL:
+https://github.com/ArvindYadav7/ACLPred
 
 Althonos
 https://github.com/althonos
 https://github.com/althonos?tab=repositories
 https://github.com/althonos/peptides.py
+
 
