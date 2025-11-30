@@ -7,7 +7,10 @@ Availability: Web Interface
 MLACP Web interface for their Webcode:
 https://balalab-skku.org/peptidebased/
 
-
+Peptidy: 
+A lightweight library for converting peptide sequences (amino acid chains) into numerical representations for use in machine learning, .
+Features: It is free of external dependencies, supports various encoding strategies, and can handle peptides with post-translational modifications like phosphorylation.
+Use cases: Useful for both predictive and generative machine learning tasks related to peptides and proteins. 
 Peptidy web site
 https://github.com/molML/peptidy
 https://github.com/molML/peptidy/tree/main/examples
@@ -39,6 +42,7 @@ Methodology:
 Uses a multi-kernel CNN to learn both local and global sequence features.
 Incorporates an attention mechanism to weigh the importance of different amino acids.
 Availability: Documentation on the model is available via academic
+
 
 
 
