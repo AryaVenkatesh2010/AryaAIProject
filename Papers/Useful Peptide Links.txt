@@ -1,0 +1,14 @@
+MLACP Web interface for their Webcode:
+https://balalab-skku.org/peptidebased/
+
+
+Peptidy web site
+https://github.com/molML/peptidy
+
+https://github.com/molML/peptidy/tree/main/examples
+
+Althonos
+https://github.com/althonos
+https://github.com/althonos?tab=repositories
+https://github.com/althonos/peptides.py
+
