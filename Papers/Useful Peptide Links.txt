@@ -1,4 +1,4 @@
-MLACP 2.0
+I. MLACP 2.0
 The MLACP 2.0 model uses multiple feature encodings and classifiers, including convolutional neural networks (CNNs), to accurately predict ACPs from their sequence information. 
 Methodology:
 Creates a meta-model by combining 11 different feature encodings and eight different classifiers.
@@ -7,7 +7,7 @@ Availability: Web Interface
 MLACP Web interface for their Webcode:
 https://balalab-skku.org/peptidebased/
 
-Peptidy: 
+II. Peptidy: 
 A lightweight library for converting peptide sequences (amino acid chains) into numerical representations for use in machine learning, .
 Features: It is free of external dependencies, supports various encoding strategies, and can handle peptides with post-translational modifications like phosphorylation.
 Use cases: Useful for both predictive and generative machine learning tasks related to peptides and proteins. 
@@ -15,7 +15,7 @@ Peptidy web site
 https://github.com/molML/peptidy
 https://github.com/molML/peptidy/tree/main/examples
 
-ML-PDGA
+III. ML-PDGA
 The ML-PDGA repository uses a generative recurrent neural network (RNN) and a genetic algorithm to design novel anticancer and antimicrobial peptides. 
 Methodology:
 Fine-tunes a generative RNN on existing ACPs and antimicrobial peptides (AMPs).
@@ -23,25 +23,26 @@ Utilizes a genetic algorithm to further optimize the generated peptides for desi
 ML-PDGA
 https://github.com/reymond-group/ML-PDGA-anticancer-peptides
 
-ACL: ACLPred
+IV. ACL: ACLPred
 The ACLPred model uses an interpretable tree-based ML method to screen for potential ACPs. It uses SHapley Additive exPlanations (SHAP) to explain which molecular features contribute most to the model's decisions. 
 Methodology:
 Employs tree-based ML models trained on topological features of peptide sequences.
 Integrates SHAP analysis for model interpretability.
 https://github.com/ArvindYadav7/ACLPred
 
-Interesting Link but may not be related to anticancer peptides; it calculates properties of peptides
+V. Interesting Link but may not be related to anticancer peptides; it calculates properties of peptides
 Althonos  
 https://github.com/althonos
 https://github.com/althonos?tab=repositories
 https://github.com/althonos/peptides.py
 
-ACP-MCAM
+VI. ACP-MCAM
 The ACP-MCAM model employs a multi-kernel CNN with an attention mechanism to identify ACPs. It can automatically learn features from sequence information and interpret how different parts of a peptide sequence influence its anticancer activity. 
 Methodology:
 Uses a multi-kernel CNN to learn both local and global sequence features.
 Incorporates an attention mechanism to weigh the importance of different amino acids.
 Availability: Documentation on the model is available via academic
+
 
 
 
