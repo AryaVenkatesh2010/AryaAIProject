@@ -1,3 +1,9 @@
+MLACP 2.0
+The MLACP 2.0 model uses multiple feature encodings and classifiers, including convolutional neural networks (CNNs), to accurately predict ACPs from their sequence information. 
+Methodology:
+Creates a meta-model by combining 11 different feature encodings and eight different classifiers.
+Uses a CNN to combine the outputs of the best-performing models to produce the final prediction.
+Availability: Web Interface
 MLACP Web interface for their Webcode:
 https://balalab-skku.org/peptidebased/
 
@@ -7,14 +13,25 @@ https://github.com/molML/peptidy
 https://github.com/molML/peptidy/tree/main/examples
 
 ML-PDGA
+The ML-PDGA repository uses a generative recurrent neural network (RNN) and a genetic algorithm to design novel anticancer and antimicrobial peptides. 
+Methodology:
+Fine-tunes a generative RNN on existing ACPs and antimicrobial peptides (AMPs).
+Utilizes a genetic algorithm to further optimize the generated peptides for desired properties.
+ML-PDGA
 https://github.com/reymond-group/ML-PDGA-anticancer-peptides
 
-ACL:
+ACL: ACLPred
+The ACLPred model uses an interpretable tree-based ML method to screen for potential ACPs. It uses SHapley Additive exPlanations (SHAP) to explain which molecular features contribute most to the model's decisions. 
+Methodology:
+Employs tree-based ML models trained on topological features of peptide sequences.
+Integrates SHAP analysis for model interpretability.
 https://github.com/ArvindYadav7/ACLPred
 
-Althonos
+Interesting Link but may not be related to anticancer peptides; it calculates properties of peptides
+Althonos  
 https://github.com/althonos
 https://github.com/althonos?tab=repositories
 https://github.com/althonos/peptides.py
+
 
 
