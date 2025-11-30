@@ -33,5 +33,13 @@ https://github.com/althonos
 https://github.com/althonos?tab=repositories
 https://github.com/althonos/peptides.py
 
+ACP-MCAM
+The ACP-MCAM model employs a multi-kernel CNN with an attention mechanism to identify ACPs. It can automatically learn features from sequence information and interpret how different parts of a peptide sequence influence its anticancer activity. 
+Methodology:
+Uses a multi-kernel CNN to learn both local and global sequence features.
+Incorporates an attention mechanism to weigh the importance of different amino acids.
+Availability: Documentation on the model is available via academic
+
+
 
 
