@@ -1,0 +1,10 @@
+Four interesting code links for VAE for peptides.
+
+
+https://github.com/ghorbanimahdi73/AMPGen
+
+https://github.com/IBM/controlled-peptide-generation
+
+https://github.com/szymczakpau/amp
+
+https://github.com/dqwang122/LSSAMP
