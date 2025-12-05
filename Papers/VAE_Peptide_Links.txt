@@ -15,8 +15,11 @@ Links on Practical Tips on VAEs in Biology:
 
 https://liambai.com/protein-vaes/
 
+https://samsinai.github.io/jekyll/update/2017/08/14/Using-a-Variational-Autoencoder-to-predict-protein-function.html
+
 https://phazcode.gitlab.io/pasteur/
 
 https://www.pnas.org/doi/epdf/10.1073/pnas.2408737122
+
 
 
