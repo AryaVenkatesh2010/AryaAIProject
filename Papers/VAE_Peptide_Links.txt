@@ -1,6 +1,5 @@
 Four interesting code links for VAE for peptides.
 
-
 https://github.com/ghorbanimahdi73/AMPGen
 
 https://github.com/IBM/controlled-peptide-generation
@@ -11,3 +10,13 @@ https://github.com/dqwang122/LSSAMP
 
 IBM VAE Tutorial:
 https://www.ibm.com/think/topics/variational-autoencoder
+
+Links on Practical Tips on VAEs in Biology:
+
+https://liambai.com/protein-vaes/
+
+https://phazcode.gitlab.io/pasteur/
+
+https://www.pnas.org/doi/epdf/10.1073/pnas.2408737122
+
+
