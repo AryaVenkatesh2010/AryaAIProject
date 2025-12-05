@@ -8,3 +8,6 @@ https://github.com/IBM/controlled-peptide-generation
 https://github.com/szymczakpau/amp
 
 https://github.com/dqwang122/LSSAMP
+
+IBM VAE Tutorial:
+https://www.ibm.com/think/topics/variational-autoencoder
